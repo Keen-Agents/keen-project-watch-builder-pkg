@@ -1,4 +1,4 @@
-# KEEN PROJECT WATCH BUILDER
+# KEEN PROJECT WATCH BUILDER PACKAGE
 
 > **KEEN PROJECT WATCH BUILDER PKG** is an npm package for creating and deploying **Keen Agents Projects** to a cloud server.  
 > This repository hosts the **Build version** of the package.
