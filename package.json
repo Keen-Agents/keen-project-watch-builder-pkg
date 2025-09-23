@@ -1,0 +1,48 @@
+{
+    "name": "keen-builder",
+    "version": "1.0.11",
+    "main": "dist/index.cjs",
+    "module": "./dist/index.mjs",
+    "type": "module",
+    "bin": {
+        "keen-builder": "dist/cli.cjs"
+    },
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.org/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Keen-Agents/keen-project-watch-builder-pkg.git"
+    },
+    "files": [
+        "dist/**"
+    ],
+    "exports": {
+        ".": {
+            "require": "./dist/index.cjs",
+            "import": "./dist/index.mjs"
+        }
+    },
+    "scripts": {
+        "dev": "node ./dist/index.mjs",
+        "build:cjs": "webpack --config webpack.cjs.mjs",
+        "build:esm": "webpack --config webpack.esm.mjs",
+        "build": "npm run build:cjs && npm run build:esm"
+    },
+    "keywords": [],
+    "author": "Paskal Novakov",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "archiver": "^7.0.1",
+        "chalk": "^5.6.2",
+        "chokidar": "^4.0.3",
+        "fs-extra": "^11.3.1",
+        "get-stream": "^9.0.1"
+    },
+    "devDependencies": {
+        "husky": "^9.1.7",
+        "prettier": "^3.6.2"
+    }
+}
