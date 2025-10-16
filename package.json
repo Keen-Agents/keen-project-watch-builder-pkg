@@ -1,6 +1,6 @@
 {
     "name": "keen-builder",
-    "version": "1.0.12",
+    "version": "1.0.13",
     "main": "dist/index.cjs",
     "module": "./dist/index.mjs",
     "type": "module",
@@ -24,12 +24,7 @@
             "import": "./dist/index.mjs"
         }
     },
-    "scripts": {
-        "dev": "node ./dist/index.mjs",
-        "build:cjs": "webpack --config webpack.cjs.mjs",
-        "build:esm": "webpack --config webpack.esm.mjs",
-        "build": "npm run build:cjs && npm run build:esm"
-    },
+    "scripts": {},
     "keywords": [],
     "author": "Paskal Novakov",
     "license": "ISC",
