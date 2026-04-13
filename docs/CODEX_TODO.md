@@ -1,0 +1,6 @@
+- [x] Vitest setup
+- [ ] Tier 1: packaging coherence (Bug F regression)
+- [ ] Tier 2: CJS smoke test
+- [ ] Tier 3: ESM smoke test (Bug F)
+- [ ] Tier 4: drift check vs source repo
+- [ ] Findings doc + commit + push

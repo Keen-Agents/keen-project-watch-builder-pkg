@@ -24,7 +24,9 @@
             "import": "./dist/index.mjs"
         }
     },
-    "scripts": {},
+    "scripts": {
+        "test": "vitest run"
+    },
     "keywords": [],
     "author": "Paskal Novakov",
     "license": "ISC",
@@ -38,6 +40,7 @@
     },
     "devDependencies": {
         "husky": "^9.1.7",
-        "prettier": "^3.6.2"
+        "prettier": "^3.6.2",
+        "vitest": "^4.0.0"
     }
 }
