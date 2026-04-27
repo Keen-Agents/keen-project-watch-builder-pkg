@@ -9,9 +9,13 @@
 
 /*! crc32.js (C) 2014-present SheetJS -- http://sheetjs.com */
 
+/*! formdata-polyfill. MIT License. Jimmy Wärting <https://jimmy.warting.se/opensource> */
+
 /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/babel/babel/blob/main/packages/babel-helpers/LICENSE */
 
 /*! safe-buffer. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
+
+/*! ws. MIT License. Einar Otto Stangvik <einaros@gmail.com> */
 
 /**
  * Archiver Core
